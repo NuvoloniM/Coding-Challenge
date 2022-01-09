@@ -1,0 +1,87 @@
+/* reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+/* immagine sfondo */
+body {
+  background: url("img/background.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+
+/* box opaco */
+.container {
+  width: 80%;
+  height: 80%;
+  margin: 20px auto;
+  padding: 50px 80px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Logo e titolo */
+
+header {
+  text-align: center;
+}
+
+.main-logo {
+  width: 30%;
+  height: 30%;
+}
+
+header h2 {
+  font-size: 28px;
+  color: #39ff14;
+}
+
+/* navbar e bottoni */
+
+#navbar {
+  padding: 10px 0px;
+  background-color: #39ff14;
+  text-align: center;
+}
+
+/* sezioni principali */
+
+main section {
+  color: #ffffff;
+  padding: 10px 0px;
+}
+
+section h3 {
+  display: inline-block;
+  font-size: 23px;
+}
+
+section p:before {
+  content: "\21A6";
+}
+
+hr {
+  height: 25px;
+  border-radius: 5px;
+}
+
+hr.orange {
+  background: #ff8000;
+  border-color: #ff8000;
+  width: 40%;
+}
+
+hr.green {
+  background: #00ff40;
+  border-color: #00ff40;
+  width: 60%;
+}
+
+hr.red {
+  background: #b30000;
+  border-color: #b30000;
+  width: 20%;
+}
